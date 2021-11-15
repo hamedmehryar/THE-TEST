@@ -6,7 +6,7 @@
     "start": "set NODE_PATH=./dist && node dist/App.js",
     "dev": "set NODE_ENV=dev && nodemon -r tsconfig-paths/register src/App.ts",
     "build": "tsc -p .",
-    "test": "set NODE_ENV=test && mocha --watch --check-leaks -r ts-node/register -r tsconfig-paths/register \"tests/**/*.spec.ts\""
+    "test": "set NODE_ENV=test && mocha --watch --check-leaks -r ts-node/register -r tsconfig-paths/register \"src/tests/**/*.spec.ts\""
   },
   "description": "ExpressApp1",
   "author": {
